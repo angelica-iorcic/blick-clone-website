@@ -1,0 +1,246 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: "Rubik", sans-serif;
+}
+header{
+    background-color: #270A47;
+    height: 800px;
+    padding: 25px;
+}
+
+img{
+    margin: 10px 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header-left{
+    width: 40%;
+    float: left;
+}
+.header-left h1{
+    font-size: 88px;
+}
+.header-left p{
+    font-size: 1.5em;
+}
+.header-left button{
+    background-color: #7634BF;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.header-left button:hover{
+    background-color: #6021a7;
+    transition: 0.3s;
+}
+.header-right{
+    width: 58%;
+    float: right;
+}
+.header-right img{
+    width: 100%;
+}
+main{
+    color: #000;
+}
+main h2{
+    font-size: 60px;
+}
+main p{
+    font-size: 20px;
+}
+.first{
+    height: 680px;
+    padding: 25px;
+    background-color: #ffffff;
+}
+
+.first-left img{
+    width: 45%;
+    float: left;
+    border-radius: 15px;
+}
+
+.first-righ{
+    width: 48%;
+    float: right;
+}
+
+.second{
+    height: 680px;
+    padding: 25px;
+    background-color: rgb(234, 234, 234);
+}
+.second-left{
+    width: 48%;
+    float: left;
+}
+
+.second-right img{
+    width: 45%;
+    float: right;
+    border-radius: 20px;
+}
+
+.third{
+    height: 700px;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+}
+.third-left img{
+    width: 45%;
+    float: left;
+    border-radius: 20px;
+}
+.third-right{
+    width: 48%;
+    float: right;
+}
+.opinion{
+    height: 400px;
+    background-color: #270A47;
+    color: #fff;
+    padding: 30px;
+}
+.opinion h2{
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-align: center;
+}
+.col-left{
+    width: 48%;
+    float: left;
+}
+.col-left img, .col-right img{
+    width: 10%;
+    float: left;
+    width: 85px;
+    height: 100px;
+    border-radius: 5px;
+}
+.col-left p, .col-right p{
+    width: 77%;
+    float: right;
+}
+.col-right{
+    width: 48%;
+    float: right;
+}
+.statistics{
+    background-color: #1C0633;
+    height: 270px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.stat-one, .stat-two, .stat-three{
+    display: inline-block;
+    margin-top: 20px;
+    margin: 45px 80px 0px 80px;
+}
+
+.number{
+    font-size: 95px;
+    margin: 0px 0px;
+    font-weight: 600;
+}
+.title{
+    font-size: 25px;
+}
+.publicity{
+    background-color: #270A47;
+    height: 700px;
+    color: #fff;
+}
+.publicity > div:first-child{
+    width: 45%;
+    float: left;
+    margin-left: 30px;
+}
+.publicity > div:first-child > img{
+    width: 500px;
+}
+.publicity > div:last-child{
+    width: 48%;
+    float: right;
+    margin-top: 50px;
+}
+.publicity button{
+    background-color: #7634BF;
+    border: none;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    width: 200px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.publicity button:hover{
+    background-color: #6021a7;
+    transition: 0.3s;
+}
+footer{
+    height: 280px;
+    color: #000;
+
+}
+.footer-left{
+    width: 40%;
+    height: 100%;
+    float: left;
+    margin-left: 80px;
+    text-align: left;
+    font-size: 20px;
+}
+.footer-right{
+    width: 48%;
+    height: 77%;
+    float: right;
+    text-align: left;
+}
+.footer-left img:first-child{
+    width: 200px;
+}
+.footer-left img{
+    width: 20px;
+    margin: 30px 10px 10px 10px;
+}
+.footer-right{
+    margin-top: 65px;
+}
+.footer-right label{
+    width: 150%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.footer-right input{
+padding: 15px;
+border: none;
+background-color: rgba(221, 221, 221, 0.656);
+border-radius: 5px;
+width: 70%;
+}
+.footer-right button{
+    background-color: #7634BF;
+    display: inline-block;
+    border: none;
+    margin-top: 25px;
+    width: 200px;
+    padding: 25px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+}
+.footer-right button:hover{
+    background-color: #6021a7;
+    transition: 0.3s;
+}
